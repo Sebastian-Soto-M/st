@@ -5,14 +5,14 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "FiraCode Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-    "Monofur Nerd Font:size=12:antialias=true:autohint=true"
+    "Monofur Nerd Font:size=14:antialias=true:autohint=true"
     "Symbola:pixelsize=15:antialias=true:autohint=true", 
 };
 
-static int borderpx = 2;
+static int borderpx = 5;
 
 /*
  * What program is execed by st depends of these precedence rules:
