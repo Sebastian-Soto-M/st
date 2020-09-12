@@ -4,7 +4,7 @@ st is a simple terminal emulator for X which sucks less.
 
 ## Requirements
 
-###Fonts:
+### Fonts:
 
 * FiraCode Nerd Font Mono
 * Monofur Nerd Font
