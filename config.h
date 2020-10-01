@@ -9,7 +9,7 @@ static char *font = "FiraCode Nerd Font Mono:size=12:antialias=true:autohint=tru
 /* Spare fonts */
 static char *font2[] = {
     "Monofur Nerd Font:size=12:antialias=true:autohint=true",
-    "Symbola:size=15:antialias=true:autohint=true", 
+    "Symbola:size=15:antialias=true:autohint=true",
 };
 
 static int borderpx = 5;
@@ -218,11 +218,11 @@ ResourcePref resources[] = {
  * Internal mouse shortcuts.
  * Beware that overloading Button1 will disable the selection.
  */
-const unsigned int mousescrollincrement = 1;
+const unsigned int mousescrollincrement = 10;
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button   function        argument       release */
-	{ ShiftMask,            Button4, kscrollup,      {.i = mousescrollincrement} },
-	{ ShiftMask,            Button5, kscrolldown,    {.i = mousescrollincrement} },
+	{ XK_NO_MOD,            Button4, kscrollup,      {.i = mousescrollincrement} },
+	{ XK_NO_MOD,            Button5, kscrolldown,    {.i = mousescrollincrement} },
 	{ XK_ANY_MOD,           Button2, selpaste,       {.i = 0},      1 },
 	{ ShiftMask,            Button4, ttysend,        {.s = "\033[5;2~"} },
 	{ XK_ANY_MOD,           Button4, ttysend,        {.s = "\031"} },
