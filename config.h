@@ -5,10 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font Mono:size=12:antialias=true:autohint=true";
+static char *font = "Fira Code Light:size=12:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-    "Monofur Nerd Font:size=12:antialias=true:autohint=true",
+    "monofur:size=12:antialias=true:autohint=true",
     "Symbola:size=15:antialias=true:autohint=true",
 };
 
